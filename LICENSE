@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Millisa Nwokolo
+Copyright (c) 2026 carrier-vetting-claude contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,15 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+NOTE ON THE CAVRA STANDARD: "The CAVRA Standard" is authored and published by
+Cassandra Gaines (https://www.logisticsriskexpert.com/cavra-standard/). It is
+referenced in this repository with attribution and is NOT covered by this
+license. The policy documents in this repository are independent adaptations;
+modified language must not be attributed to Cassandra Gaines, and use of this
+repository does not constitute CAVRA certification or endorsement.
+
+This repository provides informational templates only and does not constitute
+legal advice.

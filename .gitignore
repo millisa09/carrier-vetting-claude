@@ -1,0 +1,16 @@
+# Secrets — never commit keys
+.env
+*.key
+*-key.txt
+secrets/
+
+# Your actual carrier data stays private — only the templates are public
+carriers/
+sweeps/
+audits/
+risk-acceptance-log.md
+
+# OS noise
+.DS_Store
+Thumbs.db
+__pycache__/
