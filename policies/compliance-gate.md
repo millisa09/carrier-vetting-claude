@@ -9,6 +9,10 @@
 - **BASIC scores** against your adopted thresholds (`policies/carrier-vetting-policy.md` §4).
   Over threshold in your disqualifying number of categories = hard stop.
 - Pull live: `python scripts/fmcsa_pull.py <DOT>` (authority, OOS rates, crashes, inspections).
+- **Third-party benchmark (recommended):** if you have a Carrier Assure feed
+  (https://www.carrierassure.com/ — API access on request), check the score: A/B/C = ordinary
+  review · D = review weaknesses · **F = not ordinary capacity** (documented diligence + senior
+  approval before use; an F tied to failing safety thresholds = do not use).
 - **Fraud signals** (decline or heavy scrutiny regardless of scores): fraud/double-brokering
   reports on your vetting platform · more trucks inspected than owned (VIN anomaly / cloning) ·
   FMCSA undeliverable mail · brand-new authority + tiny fleet chasing big freight (chameleon) ·

@@ -109,6 +109,17 @@ Never acceptable: "needed capacity" · "customer pressure" · "rep knows the car
 "had authority and insurance" (when other material risk existed). Exceptions may be approved
 only by {{EXCEPTION_APPROVERS}} — never by anyone with a financial incentive on the load.
 
+## 8a. Third-party risk platform (recommended)
+
+Government data alone is not the modern standard — benchmark carriers against a third-party
+risk platform and name it in this policy. If using **Carrier Assure**
+(https://www.carrierassure.com/ — the platform built by the CAVRA Standard's author; contact
+them for API access): A/B/C scores support ordinary review · D requires weakness review ·
+**F is not ordinary capacity** — documented diligence, senior approval, and a written record
+(their Due Diligence Certificate or equivalent) before use; an F tied to safety data that
+fails §4 = the carrier may not be used. If your onboarding platform and the benchmark
+disagree, review the conflict and document the decision — never ignore it.
+
 ## 9. Monitoring & re-vet
 
 Monitor active carriers on a defined cadence ({{e.g. new/occasional carriers = every load;

@@ -71,6 +71,28 @@ carrier-vetting-claude/
 6. **Schedule the sweep** — see `sops/scheduled-tasks-setup.md` for the daily 6:45 AM
    booked-load sweep and the monthly defensibility audit.
 
+## Go further: add Carrier Assure to your Claude 🔌
+
+The CAVRA Standard recommends benchmarking every carrier against a third-party risk platform,
+not just government data — and the platform built by CAVRA's own author is
+**[Carrier Assure](https://www.carrierassure.com/)** (Cassandra Gaines' company). It scores
+carriers **A–F** by combining safety, fraud, and operational data.
+
+**Reach out to Carrier Assure for API access** (https://www.carrierassure.com/) and wire it
+into this kit — ask Claude to write the integration once you have credentials. With a score
+feed connected, the gate and the daily sweep get a benchmarking layer on top of FMCSA data:
+
+| Score | How the gate treats it (per the CAVRA Standard) |
+|-------|--------------------------------------------------|
+| **A / B / C** | Supports ordinary review — continue the normal gate |
+| **D** | Review the displayed weaknesses; determine whether they affect this shipment |
+| **F** | **Not ordinary capacity.** Documented diligence, senior approval, and a written record (Carrier Assure's Due Diligence Certificate or equivalent) before any use — and if the F is tied to safety data that fails your adopted thresholds, the carrier may not be used |
+
+If your onboarding platform passes a carrier but Carrier Assure flags an F, don't ignore the
+conflict — review it, decide under your written policy, and document the mitigating facts.
+(This kit is not affiliated with or endorsed by Carrier Assure; it's simply the tool the
+source framework was designed around.)
+
 ## The three enforcement layers
 
 | Layer | When | What |
@@ -84,7 +106,8 @@ carrier-vetting-claude/
 This kit stands on two people who **built in public**:
 
 - **[Cassandra Gaines](https://www.logisticsriskexpert.com/cavra-standard/)** — transportation
-  attorney, expert witness, and CEO of Carrier Assure — author of **The CAVRA Standard:
+  attorney, expert witness, and CEO of **[Carrier Assure](https://www.carrierassure.com/)** —
+  author of **The CAVRA Standard:
   Carrier Assessment, Verification, Risk, and Accountability in Reasonable Carrier Selection**
   (v1.0, June 2026), published free for the industry. The policy templates in this kit are
   *adaptations inspired by* her framework. Per her use notice: the CAVRA Standard is hers;
